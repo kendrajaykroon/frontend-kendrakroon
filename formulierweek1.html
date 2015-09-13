@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+        <head>
+            <meta charset="UTF-8">
+                                    <link  rel="stylesheet" href="stylesheetformulier.css"/>
+            <title>Aanmelden</title>
+        </head>
+
+<body>
+  <main>
+   <section>
+        <h1>Aanmelden</h1>
+<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+
+<p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</em></p>
+
+
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u contact <a href="">contact</a> met ons op.</p>
+    </section>
+
+
+<form>
+     <fieldset id="contact">
+        <legend>Contactgegevens:</legend>
+
+           <label>Naam<input type="text" name="naam"></label>
+
+            <label>Bedrijf<input type="text" name="bedrijf"></label>
+
+            <label>Adres <input type="text" name="adres"></label>
+
+            <label>Postcode<input type="text" name="postcode"></label>
+
+            <label>Plaats<input type="text" name="plaats"></label>
+
+            <label>Telefoon<input type="tel" name="telefoon"></label>
+
+            <label>Email<input type="email" name="email"></label>
+      </fieldset>
+
+    <fieldset id="aanmelden">
+                <legend>Ik wil mijn aanmelden:</legend>
+                    <label>Voor een project <input type="radio" name="aanmelden"></label>
+                    <label>Als stagebedrijf<input type="radio" name="aanmelden"></label>
+     </fieldset>
+
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td>Project</td>
+                    <td>Stage</td>
+                </tr>
+                    <tr>
+                        <td>
+                           <ol>
+                            <li>
+                                <label>Titel</label>
+                            <input type="text" name="titel">
+                            </li>
+                            <li>
+                                <label>Opdrachtomschrijving</label>
+                            <input type="text" name="omschrijving">
+                            </li>
+                            <li>
+                                <label>Doelgroepomschrijving</label>
+                            <input type="text" name="doelgroep">
+                            </li>
+                            <li>
+                                <label>Doelstelling / Intentie van het project</label>
+                            <input type="text" name="doel">
+                            </li>
+                            <li>
+                                <label>Looptijd</label>
+                            <input type="text" name="looptijd">
+                            </li>
+                            <li>
+                                <label>Deadline</label>
+                            <input type="date" name="deadline">
+                            </li>
+
+                        </ol>
+                        </td>
+
+                        <td>
+                            <p>Geschikt voor:</p>
+                                <select>
+                                    <option value="tweedejaars">Tweedejaars studenten</option>
+                                    <option value="eerstejaars">Eerstejaars studenten</option>
+                                    <option value="onbekend">Onbekend</option>
+                                </select>
+                        </td>
+                    </tr>
+                        <tr>
+                           <td>
+                               <p>Geschikt voor:</p>>
+                                <select>
+                                    <option value="eerstejaars">Eerstejaars studenten</option>
+                                    <option value="tweedejaars">Tweedeejaars studenten</option>
+                                    <option value="derdejaars">Derdejaars studenten</option>
+                                    <option value="afstudeer">Afstudeer studenten</option>
+                                    <option value="onbekend">Onbekend</option>
+                                </select>
+                           </td>
+                           <td>
+                              <ol>
+                                  <li>
+                                      <p>Hoe lang is de stage?</p>
+                                    <label>10 weken</label>
+                                      <input type="radio" name="stage">
+                                    <label>20 weken</label>
+                                      <input type="radio" name="stage">
+                                  </li>
+                                  <li>
+                                      <label>Begindatum</label>
+                                          <input type="date" name="datum">
+                                  </li>
+                              </ol>
+
+                           </td>
+
+                        </tr>
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <p>Beschrijving werkzaamheden</p>
+                                <label>Beschrijving stagewerkzaamheden</label>
+                                    <input type="text" name="werkzaamheden">
+                                </td>
+
+                            </tr>
+                               <tr>
+                                <td>
+                                    <p>Beschrijving stagebedrijf</p>
+                                <ol>
+                                    <li>
+                                        <label>Bedrijfsnaam</label>
+                                        <input type="text" name="bedrijfsnaam">                                                             </li>
+                                    <li>
+                                        <label>Adres</label>
+                                        <input type="text" name="adres">
+                                    </li>
+
+                                </ol>
+                                </td>
+                            </tr>
+
+    </table>
+            </fieldset>
+
+</form>
+    </main>
+    </body>
+</html>
